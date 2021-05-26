@@ -1,0 +1,48 @@
+{
+  "name": "create-react-app-project",
+  "version": "1.0.7",
+  "private": false,
+  "dependencies": {
+    "create-react-app-project": "^1.0.7",
+    "firebase": "^8.6.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postinstall": "node ./post_install.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/technicalheist/create-react-app-project.git"
+  },
+  "keywords": [
+    "Technical",
+    "Heist",
+    "create-react-app-project"
+  ],
+  "author": "Technical Heist",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/technicalheist/create-react-app-project/issues"
+  }
+}
